@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <form action="">
+                <label for="">
+                    Escribe cuánto mide cada lado de tu cuadrado:   
+                </label>
+                <input type="number" name="" id="squareInput">
+                <input type="button" onclick="calcSquarePerimeter()" value="Calcular perímetro">
+                <input type="button" onclick="calcSquareArea()" value="Calcular área">
+            </form>
+        </section>
+        <section>
+            <form action="">
+                <label for="">
+                    Escribe cuánto mide el primer lado del triángulo:   
+                    <input type="number" name="side1" id="triangleSide1Input">
+                </label>
+                <label for="">
+                    Escribe cuánto mide el segundo lado del triángulo:
+                    <input type="number" name="side2" id="triangleSide2Input">
+                </label>
+                <label for="">
+                    Escribe cuánto mide la base del triángulo:
+                    <input type="number" name="side2" id="triangleBase">
+                </label>
+                <input type="button" onclick="calcTriangleHeight()" value="Calcular altura del triángulo">
+            </form>
+        </section>
+    </main>
+    <script src="./figuras.js"></script>
+</body>
+</html>
